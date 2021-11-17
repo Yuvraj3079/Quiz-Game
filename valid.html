@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="valid.css" />
+    <script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+
+    <script src="./js/valid.js"></script>
+    <script src="./js/clock.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+          <ul>
+              <li class="nav-logo"><a href="index.html">Yuvraj</a></li>
+              <li class="nav-item"><a href="index.html">Quiz</a></li>
+              <li class="nav-item"><a href="highscores.html">High Scores</a></li>
+              <li class="nav-item"><a href="valid.html">Validation</a></li>
+              <li class="nav-button"><a href="#"><i class="fas fa-bars"></i></a></li>
+          </ul>
+      </nav>
+  </header>
+
+  <div id="login-box">
+    <div class="left">
+      <h1>Sign up</h1>
+      <form action="" method="get" name="signup_form" id="signup_form">
+      <input type="text" id = "name" name="name" placeholder="Username" /><span></span><br>
+      <input type="text" id = "email"  name="email" placeholder="E-mail" /><span></span><br>
+      <!-- <input type="text" id = "phone"  name="phone" placeholder="Phone" /><span></span><br> -->
+      <input type="password"  id = "password"  name="password" placeholder="Password" /><span></span><br>
+      <input type="password"  id = "password2" name="password2" placeholder="Retype password" /><span></span><br>
+      
+      <input type="submit" id="submit" name="signup_submit" value="Sign me up" />
+    </div>
+    
+    <div class="right">
+      <span class="loginwith">Sign in with<br />social network</span>
+      
+      <button class="social-signin facebook">Log in with facebook</button>
+      <button class="social-signin twitter">Log in with Twitter</button>
+      <button class="social-signin google">Log in with Google+</button>
+    </div>
+    <div class="or">OR</div>
+  </div>
+  <div class="clock">
+    
+    <span id="hours">&nbsp;</span>:
+    <span id="minutes">&nbsp;</span>:
+    <span id="seconds">&nbsp;</span>&nbsp;
+    <span id="ampm">&nbsp;</span>
+
+</div>
+  </body>
